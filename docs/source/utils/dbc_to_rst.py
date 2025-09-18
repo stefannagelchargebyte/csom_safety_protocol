@@ -4,7 +4,7 @@ import cantools
 db = cantools.database.load_file("uart_com.dbc")
 
 # Messages you want to document
-target_msgs = ["ChargeControl2", "ChargeState2", "PT1000State", "FirmwareVersion", "GitHash", "InquiryPacket"]
+target_msgs = ["ChargeControl2", "ChargeState2", "PT1000State", "FirmwareVersion", "GitHash", "InquiryPacket", "ErrorMessage"]
 
 # Sender name mapping
 sender_name_map = {

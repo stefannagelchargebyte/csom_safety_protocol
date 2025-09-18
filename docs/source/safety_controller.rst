@@ -136,6 +136,8 @@ The checksum is defined over:
 
 .. include:: safety_protocol.rst
 
+.. include:: error_documentation.rst
+
 
 EVerest Board Support Package Module
 ====================================
